@@ -1,0 +1,17 @@
+{
+  "name": "openapiclient",
+  "version": "0.1.0",
+  "description": "testing open api code gen ts",
+  "scripts": {
+    "import-api": "node ./importOpenAPI.mjs"
+  },
+  "keywords": [
+    "openapi",
+    "typescript"
+  ],
+  "author": "atlemagnussen",
+  "license": "ISC",
+  "dependencies": {
+    "openapi-typescript-codegen": "^0.9.3"
+  }
+}
