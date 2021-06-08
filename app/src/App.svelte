@@ -1,6 +1,5 @@
 <script lang="ts">
 	import {onMount} from "svelte"
-import { action_destroyer } from "svelte/internal"
 	export let name: string
 	let tabbarEl
 	let activeIndex = 0
