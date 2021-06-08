@@ -10,6 +10,7 @@ export const downloadFile = () => {
         type: "pdf",
         description: "more desc",
         downloadUrl: "optional sas link",
+        webPreviewUrl: "",
     }
     mst.openFilePreview(fileOpenParms)
 }
